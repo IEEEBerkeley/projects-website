@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
+  color: #00629B;
 }
 
 .back-to-top i {
@@ -91,13 +92,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #1acc8d;
+  background: #00629B;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #2be4a2;
+  background: #00B5E2/* #2be4a2*/;
   color: #fff;
 }
 
@@ -194,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 25px;
-  background-color: #1acc8d;
+  background-color: #00B5E2/*#1acc8d*/;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -246,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #1acc8d;
+  color: #00B5E2/*#1acc8d*/;
 }
 
 .nav-menu .drop-down > a:after {
@@ -342,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #1acc8d;
+  color: #00B5E2/*#1acc8d*/;
   text-decoration: none;
 }
 
@@ -642,6 +643,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
+  text-align: center;
   /* color: #010483; */
   color: #00629B;
 }
@@ -1106,6 +1108,17 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
+}
+
+/*--------------------------------------------------------------
+# Apply
+--------------------------------------------------------------*/
+
+.airtable-form {
+  background-color: black;
+  width: 60vw;
+  height: 120vh;
+  margin: 0 auto;
 }
 
 /*--------------------------------------------------------------
