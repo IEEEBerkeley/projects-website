@@ -1141,6 +1141,7 @@ section {
 
 .team .member img {
   transition: all ease-in-out 0.4s;
+  width: 100%;
 }
 
 .team .member:hover img {
