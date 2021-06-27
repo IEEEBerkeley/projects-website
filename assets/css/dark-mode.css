@@ -25,3 +25,8 @@
   [data-theme="dark"] .bg-white {
     background-color: #000 !important;
   }
+  
+  [data-theme="dark"] .breadcrumbs {
+    background-color: #222 !important;
+  }
+  
