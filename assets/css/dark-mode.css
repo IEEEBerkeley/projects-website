@@ -33,6 +33,4 @@
   [data-theme="dark"] #header .logo h1 a, #header .logo h1 a:hover{
     color: #002855 !important;
   }
-  [data-theme="dark"] #header .header-scrolled, #header{
-    color: #222 !important;
-  }
+  

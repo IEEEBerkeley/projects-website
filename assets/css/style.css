@@ -120,7 +120,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  /* background: rgba(1, 4, 136, 0.9); */
   background: #00629B;
 }
 
@@ -129,7 +128,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  /* background: rgba(1, 4, 136, 0.9); */
   background: #00629B;
   height: 60px;
 }
