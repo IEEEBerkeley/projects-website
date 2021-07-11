@@ -74,6 +74,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Dark switch button
+--------------------------------------------------------------*/
+.dark-switch {
+  position: fixed;
+  display: inline;
+  right: 15px;
+  bottom: 30px;
+  z-index: 99999;
+  color: #00629B;
+}
+
+.dark-switch i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #00629B;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.dark-switch i:hover {
+  background: #00B5E2/* #2be4a2*/;
+  color: #fff;
+}
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
