@@ -85,7 +85,7 @@ h6 {
   position: fixed;
   display: inline;
   right: 15px;
-  bottom: 30px;
+  bottom: 70px;
   z-index: 99999;
   color: #00629b;
 }
@@ -950,9 +950,9 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.features .icon-box h3 a:hover {
-  /* color: #01036f; */
-}
+/* .features .icon-box h3 a:hover {
+ color: #01036f;
+} */
 
 .features .icon-box:hover {
   background: #ebebff;
